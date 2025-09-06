@@ -1,0 +1,26 @@
+Package: scclone
+Title: Clonal structure inference
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Shihao", family = "Bai", email = "b369259046@sjtu.edu.cn", role = c("aut","cre"),
+           comment = c(ORCID = "0000-0002-3156-631X"))
+Description: From raw vcfs to clonal structure.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+        license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: caret, cluster, cowplot, data.table, dplyr, e1071, factoextra,
+        fpc, gg.gap, gganimate, ggExtra, ggplot2, ggsci, ggthemes,
+        ggtree, pheatmap, pROC, randomForest, RColorBrewer, readxl,
+        reprex, reshape2, rpca, scales, sigminer, tidyverse, treeio,
+        treemapify, tweenr, vegan, Rtsne, umap, clusterProfiler,
+        org.Hs.eg.db, R (>= 4.3)
+Imports: SomaticSignatures, BSgenome.Mmusculus.UCSC.mm10,
+        BSgenome.Hsapiens.UCSC.hg19, BSgenome.Hsapiens.UCSC.hg38,
+        IRanges, VariantAnnotation, fpc, clusterSim, mclust,
+        dendextend, aricode
+NeedsCompilation: no
+Packaged: 2025-09-02 08:24:00 UTC; 36925
+Author: Shihao Bai [aut, cre] (ORCID: <https://orcid.org/0000-0002-3156-631X>)
+Maintainer: Shihao Bai <b369259046@sjtu.edu.cn>
