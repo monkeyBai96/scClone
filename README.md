@@ -10,6 +10,8 @@ scClone/
 ├── package/          # Core R package of scClone
 ├── benchmark/        # Test code for myeloma cell line validation
 ├── case_1-4/         # Case study code (HCC, pancreatic cancer, ovarian cancer, cSCC)
+├── slurm/            # Bash command run on HPC
+├── document/         # Files required in the process
 └── README.md         # User guide (this file)
 ```
 
